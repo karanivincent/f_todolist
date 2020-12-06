@@ -9,7 +9,6 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    '@nuxtjs',
     'plugin:nuxt/base'
   ],
   plugins: [

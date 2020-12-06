@@ -6,7 +6,7 @@
           TODOS
         </h3>
         <div class=" rounded overflow-hidden">
-          <form class="my-3 flex" @submit.prevent="addTodo">
+          <form class="mb-3 flex" @submit.prevent="addTodo">
             <input v-model="newTodo" type="text" required class=" flex-1 px-2 py-1 rounded border text-gray-700 focus:border-gray-500 focus:outline-none ">
             <button type="submit" class=" mx-2 bg-orange-600 px-6 py-1 inline-block rounded text-white uppercase">
               <h3 class=" text-xl font-semibold">

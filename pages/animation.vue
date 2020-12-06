@@ -1,6 +1,5 @@
 <template>
   <div class=" w-screen h-screen">
-
     <div class=" w-1/2 mx-auto">
       <h1 class=" font-semibold text-xl">
         Animation
@@ -19,6 +18,11 @@
           Tada
         </p>
       </transition>
+    </div>
+    <div class="mt-12">
+      <div class=" ml-64 h-64 w-64 bg-gradient-to-tl from-orange-600   to-pink-700 ">
+        Hello
+      </div>
     </div>
   </div>
 </template>
